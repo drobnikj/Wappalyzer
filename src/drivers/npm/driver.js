@@ -110,6 +110,7 @@ class Driver {
       silent: true,
       userAgent: this.options.userAgent,
       waitDuration: this.options.maxWait,
+      proxyUrl: this.options.proxyUrl,
     });
 
     this.timer('browser.visit start; url: ' + pageUrl.href, timerScope);
